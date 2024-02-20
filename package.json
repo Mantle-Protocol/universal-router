@@ -31,9 +31,9 @@
     "node": ">=14"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "4.7.0",
     "@uniswap/v2-core": "1.0.1",
-    "@uniswap/v3-core": "1.0.0",
-    "@openzeppelin/contracts": "4.7.0"
+    "@uniswap/v3-core": "1.0.0"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "1.0.4",
@@ -42,7 +42,7 @@
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
     "@uniswap/router-sdk": "^1.3.0",
-    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/sdk-core": "https://github.com/Mantle-Protocol/sdk-core",
     "@uniswap/snapshot-gas-cost": "^1.0.0",
     "@uniswap/v2-sdk": "^3.0.1",
     "@uniswap/v3-sdk": "^3.8.3",

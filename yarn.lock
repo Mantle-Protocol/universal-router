@@ -1466,6 +1466,18 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
+"@uniswap/sdk-core@https://github.com/Mantle-Protocol/sdk-core":
+  version "4.1.2"
+  resolved "https://github.com/Mantle-Protocol/sdk-core#3262b43c2bf9144907bcb1d5041c90d193ce8d8c"
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    "@ethersproject/bignumber" "^5.7.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.2.0"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
 "@uniswap/snapshot-gas-cost@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@uniswap/snapshot-gas-cost/-/snapshot-gas-cost-1.0.0.tgz"
@@ -2964,7 +2976,7 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-jsbi@^3.1.4:
+jsbi@^3.1.4, jsbi@^3.2.0:
   version "3.2.5"
   resolved "https://registry.npmjs.org/jsbi/-/jsbi-3.2.5.tgz"
   integrity sha512-aBE4n43IPvjaddScbvWRA2YlTzKEynHzu7MqOyTipdHucf/VxS63ViCjxYRg86M8Rxwbt/GfzHl1kKERkt45fQ==
